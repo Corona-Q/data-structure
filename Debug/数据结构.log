@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\曲晨辉\source\repos\数据结构\link list.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“single_link_list”的左侧
+c:\users\曲晨辉\source\repos\数据结构\sequence list.h(2): fatal error C1021: 无效的预处理器命令“progma”
+  link list.h
+c:\users\曲晨辉\source\repos\数据结构\link list.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“single_link_list”的左侧
+c:\users\曲晨辉\source\repos\数据结构\link list.h(20): error C2332: “struct”: 缺少标记名
+c:\users\曲晨辉\source\repos\数据结构\link list.h(20): fatal error C1004: 发现意外的文件尾
+  sequence list.h
+c:\users\曲晨辉\source\repos\数据结构\sequence list.h(2): fatal error C1021: 无效的预处理器命令“progma”
+  正在生成代码...
