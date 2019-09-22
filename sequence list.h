@@ -1,5 +1,5 @@
 ////////header file////////
-#progma once
+#pragma once
 #include<stdio.h>
 #include<stdlib.h>
 ////////header file////////

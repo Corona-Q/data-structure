@@ -19,5 +19,7 @@ int main()
 	scanf("%d", &STU[0].age);
 	printf("第一个小朋友的年龄是：");
 	printf("%d", STU[0].age);
+	getchar();
+	getchar();
 	return 0;
 }

@@ -15,5 +15,3 @@ typedef struct single_link_list{
 	elemtype data;
 	single_link_list *next;
 	};
-
-typedef struct 
