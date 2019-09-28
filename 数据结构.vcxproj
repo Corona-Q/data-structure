@@ -139,10 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="1.LA=LA并LB.cpp" />
     <ClCompile Include="link list.h" />
     <ClCompile Include="sequence list.h" />
+    <ClCompile Include="预定义.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
