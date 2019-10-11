@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.LA=LA并LB.cpp" />
+    <ClCompile Include="顺序表中插入元素.c" />
     <ClCompile Include="link list.h" />
     <ClCompile Include="sequence list.h" />
     <ClCompile Include="预定义.h" />

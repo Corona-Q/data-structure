@@ -24,7 +24,7 @@
     <ClCompile Include="预定义.h">
       <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="1.LA=LA并LB.cpp">
+    <ClCompile Include="顺序表中插入元素.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

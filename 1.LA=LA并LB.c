@@ -12,15 +12,15 @@
 
 typedef struct list
 {
-	elemtype data[List_Size];
+	ElemType data[List_Size];
 	int len;
 }List;
 
-void InsertElem(List *L, elemtype e);
+void InsertElem(List *L, ElemType e);
 void Union(List *L1, List *L2);
-status LocateElem(List L, int x, elemtype e);
-status LocateElem(List L, int x, elemtype e);
-elemtype GetElem(List L, int i);
+status LocateElem(List L, int x, ElemType e);
+status LocateElem(List L, int x, ElemType e);
+ElemType GetElem(List L, int i);
 
 int main()
 {
@@ -53,11 +53,11 @@ int main()
 	getchar();
 	return 0;
 }
-elemtype GetElem(List L, int i)
+ElemType GetElem(List L, int i)
 {
 	return L.data[i];
 }
-status LocateElem(List L,int x,elemtype e)
+status LocateElem(List L,int x,ElemType e)
 //查找表中是否有e元素
 {
 	int i;
@@ -71,7 +71,7 @@ void Union(List *LA,List *LB)
 {
 	int i;
 	int alen = LA->len;//alen是L1的初始长度
-	elemtype e;
+	ElemType e;
 	for (i = 0; i < LB->len; i++) {
 		e = GetElem(*LB,i);
 		if (!LocateElem(*LA, alen, e))
@@ -80,7 +80,7 @@ void Union(List *LA,List *LB)
 		}
 	}
 }
-void InsertElem(List *L,elemtype e)
+void InsertElem(List *L,ElemType e)
 //在表尾插入e
 {
 	L->data[L->len++] = e;

@@ -9,17 +9,17 @@
 
 ////////type define////////
 
-typedef int elemtype;
+typedef int ElemType;
 
 typedef struct single_link_list_node{
-	elemtype data;
+	ElemType data;
 	single_link_list_node *next;
-	}Single_Link_List_Node;
+	}SingleLinkListNode;
 
 typedef struct single_link_list{
-	Single_Link_List_Node *head, *tail;
+	SingleLinkListNode *head, *tail;
 	int length;
-	}Single_Link_List;
+	}SingleLinkList;
 
 //////////////////////////////
 ////////functions////////
