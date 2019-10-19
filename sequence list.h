@@ -56,7 +56,31 @@ void Ergodic_Sql(SequenceList*L)
 	//遍历并输出顺序表
 	int i;
 	for(i=0;i<L->len;i++)
-		printf("%d", L->elem[i]);
+		printf("%d ", L->elem[i]);
 }
+
+status Destroy_Sql(SequenceList *L)
+{
+	//销毁顺序表 
+	free(L->elem);
+	L->elem = NULL;//这个很重要！不要漏掉哦！
+	L->len = 0;
+	L->listsize = 0;
+	return OK;
+}
+
+int Locate_Sql_Elem(SequenceList *list, ElemType element)
+{
+	//在顺序表L中查找第1个值与e相等元素的位序
+	//如果找到，返回位序值，如果没找到，返回infeasible
+	int i,symbol=0;
+	for(i=0;i<list->len;i++)
+	{
+		if (list->elem[i] == element) return i + 1;
+		else symbol = 1;
+	}
+	if (symbol = 1) return INFEASIBLE;
+}
+	
 
 //////////////////////////
