@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include"‘§∂®“Â.h"
-#include"sequence list.h"
+#include"sequence_list.h"
 #include <time.h>
 
 void main()

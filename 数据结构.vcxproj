@@ -139,10 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="头文件 线性表.cpp" />
     <ClCompile Include="查找目标元素位序.c" />
-    <ClCompile Include="link list.h" />
-    <ClCompile Include="sequence list.h" />
+    <ClCompile Include="link_list.h" />
+    <ClCompile Include="sequence_list.h" />
+    <ClCompile Include="顺序表中插入元素.c" />
     <ClCompile Include="预定义.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sequence_stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

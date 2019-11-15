@@ -15,17 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sequence list.h">
-      <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="link list.h">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="预定义.h">
       <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="查找目标元素位序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="link_list.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence_list.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序表中插入元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="头文件 线性表.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sequence_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
